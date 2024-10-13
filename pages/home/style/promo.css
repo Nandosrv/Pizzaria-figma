@@ -27,7 +27,7 @@
 .main-contener-1 .content-1 .content-img2 .img-1 {
   width: 550px;
   height: 244px;
-  background-image: url(/img/image\ 18.png);
+  background-image: url(./img/image\ 18.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@
 .main-contener-1 .content-1 .content-img2 .img-2 {
   width: 274px;
   height: 244px;
-  background-image: url(/img/image\ 14.png);
+  background-image: url(./img/image\ 14.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 .main-contener-1 .content-1 .content-img2 .img-3 {
   width: 880px;
   height: 343px;
-  background-image: url(/img/Promo.png);
+  background-image: url(./img/Promo.png);
   grid-column: span 6;
 }
 .main-contener-1 .content-1 .btn-peca-1 {
