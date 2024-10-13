@@ -1,0 +1,45 @@
+.img_footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    .img_footer1{
+        display: flex;
+        margin-top: 2rem;
+        width: 880px;
+        height: 234px;
+        align-items: center;
+        justify-content: center;
+        background-image: url(/img/image\ zzz.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 12px;
+    }
+    
+}
+.btn_button-1{
+    width: 441px;
+    margin-top: 2rem;
+    height: 78px;
+    background-color: #FF6347;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition: .2s ease-in-out;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    &:hover{
+        background-color: #ffa191;
+    }
+    a{
+        font-size: 41px;
+        text-decoration: none;
+       text-transform: uppercase;
+        color: #fff;
+        font-family: 'Inter';
+
+    }
+}

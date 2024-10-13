@@ -1,0 +1,80 @@
+.main-sections{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    .sections-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .text-main{
+            display: flex;
+            width: 880px;
+           
+            justify-content: center;
+            p{
+                margin-top: 2rem;
+                font-size: 48px;
+                color: #FF6347;
+                font-family: 'Inter';
+                display: flex;
+                justify-content: center;
+            }
+           
+        }
+    } .maps{
+        display: flex;
+        margin-top: 3rem;
+        
+        .iframe{
+           width: 100%;
+           
+        }
+    }
+    .text-maps{
+        width: 100%;
+        font-family: 'Archivo',sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        margin: 2rem;
+        justify-content: center;
+       
+       
+        p{
+            
+            font-weight: bold;
+            font-size: 23px;
+            text-align: center;
+            padding: 10px;
+            width: 1100px;
+        }
+    }
+    .btn-peca-2{
+        width: 441px;
+        height: 78px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #FF6347;
+        display: flex;
+        border-radius: 12px;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        transition: .2s ease-in-out;
+        &:hover{
+            background-color: #f89e8e;
+        }
+        a{
+            display: flex;
+            text-decoration: none;
+           font-size: 28px;
+           color: #fff;
+           text-transform: uppercase;
+           font-family: 'Inter';
+        }
+    }
+}

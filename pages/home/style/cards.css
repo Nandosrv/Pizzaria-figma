@@ -1,0 +1,83 @@
+.text-ops {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F3F3F3;
+}
+
+.pizza-menu {
+  display: flex;
+  width: 686.58px;
+  flex-direction: column;
+}
+.pizza-menu .text-contente {
+  flex: 1;
+  margin-top: 1rem;
+  color: #FF6347;
+  text-align: center;
+  font-size: 27px;
+}
+.pizza-menu div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pizza-menu div p {
+  font-size: 22px;
+  color: #FF6347;
+}
+.pizza-menu .pizza-met {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.section-cards {
+  width: 1201px;
+  margin-top: 2rem;
+  gap: 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-cards div {
+  display: flex;
+  flex-direction: column;
+  width: 372.86px;
+  margin-bottom: 3rem;
+}
+.section-cards div img {
+  width: 300px;
+  border-radius: 12px;
+}
+.section-cards div button {
+  margin: 1rem 0;
+  width: 372px;
+  height: 70px;
+  background-color: #FF6347;
+  border-radius: 12px;
+  transition: 0.2s ease-in-out;
+}
+.section-cards div button:hover {
+  background-color: #fc8672;
+}
+.section-cards div a {
+  font-size: 35px;
+  text-decoration: none;
+  color: #fff;
+}
+.section-cards p {
+  font-size: 31px;
+  color: #433A3A;
+  font-family: "Inter";
+  font-weight: 500;
+}
+.section-cards span {
+  font-size: 20px;
+  color: #534C4C;
+  font-family: "Inter";
+  font-size: 200;
+}/*# sourceMappingURL=cards.css.map */

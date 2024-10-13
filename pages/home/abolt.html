@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria</title>
+    <link rel="icon" href="/img/emojione--pizza.png" type="image/png">
+
+    <!-- styele -->
+    <link rel="stylesheet" href="./style/home.css">
+    <link rel="stylesheet" href="./style/finaze.css">
+    <link rel="stylesheet" href="./style/adolt.css">
+
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-nav">
+        <nav>
+            <div class="logo">
+                <a href="./home.html">
+                    <img src="/img/logo2.png" alt="">
+                </a>
+
+
+            </div>
+            <ul>
+                <li>
+                    <a href="./cardapio.html">Cardapio</a>
+                </li>
+                <li>
+                    <a href="./promo.html">Promoções</a>
+                </li>
+                <li>
+                    <a href="./local.html">Localização</a>
+                </li>
+                <li>
+                    <a href="./pedir.html">Como Pedir</a>
+                </li>
+                <li>
+                    <a href="./sobre.html">Sobre</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <main class="about-section">
+
+        <section class="about-title">
+
+            <div class="service-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7456.824127384518!2d-47.79666140467385!3d-21.174513574183134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf1d68acc21d%3A0x37b8ee0abedeea39!2sRibeir%C3%A3o%20Preto%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1728744532559!5m2!1spt-BR!2sbr" width="590" height="339" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            </div>
+            <div class="services-container">
+                <div class="progresso">
+                    <div class="circulo">1</div>
+                    <div class="circulo">2</div>
+                    <div class="circulo active">3</div>
+                    <div class="circulo">4</div>
+                </div>
+                
+            </div>
+            <div class="content-cont">
+                <div class="testimonial-item">
+                    <p>Pedido Confirmado</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>Em preparo</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>Saiu para entrega</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>Entregue</p>
+                </div>
+            </div>
+            
+        </section>
+        <div class="btn-primary">
+            <button>
+                <a href="#">Confirmar Entrega</a>
+            </button>
+        </div>
+    </main>
+    <footer>
+        <main class="footer-logo">
+            <div class="logos">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <div class="coca-cola">
+
+                </div>
+                <div class="playstore">
+
+                </div>
+                <div class="App-Store">
+
+                </div>
+            </div>
+            <div class="text-footer">
+                <p>Faça seu pedido de forma rápida e fácil em nosso site. Basta selecionar suas pizzas e
+                    bebidas favoritas, adicionar ao carrinho e finalizar o pedido. Entregamos em toda a região
+                    com rapidez e qualidade.
+                    Desfrute do conforto da sua casa enquanto saboreia nossas pizzas, nossa equipe de
+                    entregas fará o possível para levar o sabor da BellaPizza até você em tempo hábil.
+                    Preferência por retirar pessoalmente? Sem problemas! Faça seu pedido online e retire na
+                    nossa pizzaria, garantindo a mesma qualidade e sabor que você conhece.</p>
+            </div>
+        </main>
+    </footer>
+    <script>
+        function activeToggle(el){
+  alert('ok')
+  const circulo = el.querySelector('.circulo');
+
+  // Alterna a classe 'active' no elemento filho
+  circulo.classList.toggle('active');
+}
+    </script>
+</body>
+
+</html>

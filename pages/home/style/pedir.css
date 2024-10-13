@@ -1,0 +1,71 @@
+.text-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.text-content .text-content-text {
+  width: 1060px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-content .text-content-text .div-text {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.text-content .text-content-text .div-text h1 {
+  width: 328px;
+  height: 50px;
+  font-size: 29px;
+  color: #FF6347;
+  text-align: center;
+}
+.text-content .text-content-text .div-p {
+  width: 100%;
+  margin-top: 5rem;
+}
+.text-content .text-content-text .div-p p {
+  font-size: 24px;
+  color: #534C4C;
+  padding: 20px;
+  font-family: "Inter";
+}
+.text-content .text-content-text span {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Inter";
+}
+.text-content .btn_button {
+  width: 441px;
+  height: 78px;
+  background-color: #FF6347;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+  margin-bottom: 2rem;
+}
+.text-content .btn_button:hover {
+  background-color: #ffa191;
+}
+.text-content .btn_button a {
+  font-size: 41px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Inter";
+}/*# sourceMappingURL=pedir.css.map */

@@ -1,0 +1,193 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: calc(100vw - 70px);
+}
+.row .content-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 106px;
+}
+.row .content-row h1 {
+  color: #FF6347;
+  font-family: "Inter";
+}
+.row .card-header {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.row .card-header .card-body {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 320px;
+}
+.row .card-header .card-body .fade-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 77px;
+  border-radius: 12px;
+  background-color: #FF6347;
+}
+.row .card-header .card-body .fade-in h1 {
+  color: #fff;
+  font-size: 31px;
+}
+.row .card-header .card-body .accordion {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #ccc;
+}
+.row .card-header .card-body .accordion .card-x1 {
+  border-radius: 12px;
+  width: 164px;
+  height: 137px;
+  background-image: url(/img/forn.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row .card-header .card-body .accordion .const {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+.row .card-header .card-body .accordion .const p {
+  font-size: 27px;
+}
+.row .card-header .card-body .accordion .const .const3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row .card-header .card-body .accordion .const .const3 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 164px;
+  height: 59px;
+  border-radius: 12px;
+  background-color: #FF6347;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.row .card-header .card-body .accordion .const .const3 button:hover {
+  background-color: #ffa393;
+}
+.row .card-header .card-body .accordion .const .const3 button a {
+  text-decoration: none;
+  font-family: "Inter";
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.row .card-header .card-body .accordion .text-accor1 {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-image: url(/img/Cartao.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.row .card-header .card-body .accordion .text-accor3 {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-image: url(/img/din.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.row .card-header .card-body .accordion .text-accor4 {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-image: url(/img/pix.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.row .card-header .card-body .conster2 {
+  display: flex;
+  width: 100%;
+  height: 70px;
+}
+.row .card-header .card-body .conster2 .text-accor {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background-image: url(/img/Cartao.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.row .card-header .card-body .conster2 .conster3 {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #ccc;
+  border-bottom: 1px solid;
+  border-radius: 12px;
+}
+.row .card-header .card-body .conster2 .conster3 p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #534C4C;
+  font-family: "Inter";
+  margin-left: 10px;
+}
+.row .buutom {
+  width: 100%;
+  height: 70px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row .buutom button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 324px;
+  height: 59px;
+  border-radius: 12px;
+  background-color: #FF6347;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.row .buutom button:hover {
+  background-color: #ffa393;
+}
+.row .buutom button a {
+  text-decoration: none;
+  font-family: "Inter";
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=finaze.css.map */
