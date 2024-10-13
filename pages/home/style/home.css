@@ -114,8 +114,8 @@ body {
 .main-contener .content .img3 {
   width: 550px;
   height: 254px;
-  border-radius: 12px;
   display: flex;
+  border-radius: 13px;
   margin: auto;
   background-image: url(../../../img/baixados.jpeg);
   background-position: center;

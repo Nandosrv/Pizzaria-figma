@@ -1,2 +1,6 @@
-*.scss
-*.nap
+
+**/*.scss
+**/*.css.map
+
+
+!**/*.css
