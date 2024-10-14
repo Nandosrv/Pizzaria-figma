@@ -164,7 +164,7 @@ body {
 .footer-logo .logos .coca-cola {
   width: 212px;
   height: 110px;
-  background-image: url(/img/Captura\ de\ tela\ 2024-10-10\ 165334.png);
+  background-image: url(../../../img/cocacoka.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -174,7 +174,7 @@ body {
   width: 212px;
   height: 110px;
   margin-left: 5rem;
-  background-image: url(/img/025fb871-7f40-47a3-95d6-f653d1b69ce0.png);
+  background-image: url(../../../img/play.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -184,7 +184,7 @@ body {
   width: 212px;
   height: 110px;
   margin-left: 5rem;
-  background-image: url(/img/app.png);
+  background-image: url(../../../img/app.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
